@@ -23,6 +23,13 @@
 1. 确保已安装 Python 3.7 或更高版本
 2. 安装所需依赖：
 ```bash
+# 创建虚拟环境
+python -m venv venv
+
+# 激活虚拟环境
+venv\\Scripts\\activate
+
+# 安装依赖
 pip install -r requirements.txt
 ```
 
@@ -37,14 +44,6 @@ pip install -r requirements.txt
 
 3. 运行程序：
 ```bash
-# 创建虚拟环境
-python -m venv venv
-venc\\Script\\activate
-
-# 安装依赖(你也不想裸跑项目的时候报错吧.jpg)
-pip install -r requirements.txt
-
-# 运行项目
 python main.py
 ```
 
